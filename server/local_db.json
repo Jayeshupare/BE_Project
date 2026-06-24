@@ -529,6 +529,26 @@
       "publish": false,
       "likes": [],
       "created_at": "2026-05-11T12:41:32.748Z"
+    },
+    {
+      "id": "zthbolydmqrztklo",
+      "user_id": "user_30ghjcKsRgizySjAPqby0BwQpex",
+      "prompt": "Interview Questions: frontend developer",
+      "content": "### Interview Questions for Mid-Level frontend developer (TCS)\n\n1. How do you ensure a website is fully responsive?\n\n2. What are HTML, CSS, and JavaScript used for?\n\n3. What is the Virtual DOM and how does it work?\n\n4. Explain semantic HTML and its importance.\n\n5. What is the difference between local storage, session storage, and cookies?\n\n6. Explain the CSS Box Model.\n\n7. What is React and why is it used?\n\n8. What are CSS preprocessors like SASS/LESS?\n\n9. What is JSX in React?\n\n10. What is state management in React?\n\n11. How do you optimize a website's performance?\n\n12. What are hooks in React (useState, useEffect)?\n\n13. How do you balance adhering to best practices versus delivering a project on a tight deadline?\n\n14. What is the most challenging technical problem you've solved recently?\n",
+      "type": "interview-questions",
+      "publish": false,
+      "likes": [],
+      "created_at": "2026-06-24T11:31:43.884Z"
+    },
+    {
+      "id": "4resa0frmqrzu5iv",
+      "user_id": "user_30ghjcKsRgizySjAPqby0BwQpex",
+      "prompt": "Interview Questions: SQL developer",
+      "content": "### Interview Questions for Mid-Level SQL developer (TCS)\n\n1. Explain sharding vs replication.\n\n2. What are SQL joins and their types?\n\n3. What is SQL vs NoSQL?\n\n4. What is database normalization?\n\n5. Difference between Primary Key and Foreign Key?\n\n6. Explain database indexing and its benefits.\n\n7. What is MongoDB and how is it used?\n\n8. What is Mongoose in Node.js?\n\n9. What is a database transaction?\n\n10. What are collections and documents in MongoDB?\n\n11. How do you optimize a slow database query?\n\n12. How does frontend connect with backend?\n\n13. How do you balance adhering to best practices versus delivering a project on a tight deadline?\n\n14. What is the most challenging technical problem you've solved recently?\n",
+      "type": "interview-questions",
+      "publish": false,
+      "likes": [],
+      "created_at": "2026-06-24T11:32:10.999Z"
     }
   ]
 }

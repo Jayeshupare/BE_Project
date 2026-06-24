@@ -5,7 +5,8 @@ import axios from "axios";
 import { v2 as cloudinary } from "cloudinary";
 import fs from 'fs'
 import pdf from 'pdf-parse/lib/pdf-parse.js'
-import { generateLocalPrompt, summarizeLocalText, buildLocalResume, checkLocalPlagiarism, generateLocalInterviewQuestions, repurposeLocalContent } from "../utils/localAlgorithms.js"; // Import local algos
+import { generateLocalPrompt, summarizeLocalText, buildLocalResume, checkLocalPlagiarism, repurposeLocalContent } from "../utils/localAlgorithms.js"; // Import local algos
+import { generateInterviewQuestionsTool } from "../utils/interviewGenerator.js";
 
 const AI = new OpenAI({
     apiKey: process.env.GEMINI_API_KEY,
@@ -373,8 +374,8 @@ export const generateInterviewQuestions = async (req, res) => {
         const { userId } = req.auth();
         const { role, level, industry } = req.body;
 
-        // Use Local Algorithm
-        const content = generateLocalInterviewQuestions(role, industry, level);
+        // Use Local Algorithm (New Dedicated Tool)
+        const content = generateInterviewQuestionsTool(role, industry, level);
 
         try {
             await sql` INSERT INTO creations (user_id, prompt, content, type) 
