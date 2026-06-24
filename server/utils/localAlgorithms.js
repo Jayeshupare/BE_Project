@@ -497,7 +497,7 @@ export const repurposeLocalContent = (content, targetFormat) => {
 
 // 7. Smart Hashtag Generator: Keyword Extraction + Trends
 export const generateLocalHashtags = (text) => {
-    if (!text) return "#QuickAI #Trending";
+    if (!text) return "#AIHub #Trending";
 
     // 1. Extract Keywords (remove common stopwords)
     const stopwords = ['the', 'is', 'and', 'to', 'a', 'in', 'of', 'with', 'for', 'on', 'at', 'by', 'this', 'that', 'it'];
